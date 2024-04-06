@@ -9,5 +9,4 @@ The fact that we can elect our jurists is a great opportunity for voters to elec
 
 When's the last time you heard ANYTHING about a judicial race? Maybe you got a flyer from some judges saying they were endorsed by the Bar Association, but that generally only means "this person is adequately prepared for the job" as an attorney in good standing. It doesn't say anything about what they stand for, their ethics, their politics, their experience or expertise, etc.
 
-(Taken from https://github.com/pm0kjp/pa-judicial-data)
-
+(Taken from (https://github.com/pm0kjp/pa-judicial-data)).
