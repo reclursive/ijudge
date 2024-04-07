@@ -14,14 +14,23 @@ export const JudgesByGender = () => {
         "Palumbo_Frank_Gender_plot"
     ]
 
+    const judgeNames = [
+        "Robert P Coleman",
+        "Scott DiClaudio",
+        "Michael Erdos",
+        "Rayford A Means",
+        "Frank Palumbo"
+    ]
+
     console.log(chartImageNames);
     return (
         <div>
             <div className="chart-container">
                 <div className="chart-title">Judges by Gender</div>
-                {chartImageNames.map((name) => {
+                {chartImageNames.map((name, index) => {
                     return <div className="chart">
-                            <img src={`../assets/charts/${name}.pdf`} alt="Judges" />
+                            <p>{judgeNames[index]}</p>
+                            <img src={`/assets/charts/${name}.png`} alt="Judges" />
                         </div>
                 })}
             </div>
