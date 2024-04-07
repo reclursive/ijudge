@@ -14,15 +14,22 @@ export const JudgesByRace = () => {
         "Palumbo_Frank_Race_plot"
     ]
 
-    
+    const judgeNames = [
+        "Robert P Coleman",
+        "Scott DiClaudio",
+        "Michael Erdos",
+        "Rayford A Means",
+        "Frank Palumbo"
+    ]
 
     console.log(chartImageNames);
     return (
         <div>
             <div className="chart-container">
                 <div className="chart-title">Judges by Race</div>
-                {chartImageNames.map((name) => {
+                {chartImageNames.map((name, index) => {
                     return <div className="chart">
+                            <p>{judgeNames[index]}</p>
                             <img src={`../assets/charts/${name}.pdf`} alt="Judges" />
                         </div>
                 })}
