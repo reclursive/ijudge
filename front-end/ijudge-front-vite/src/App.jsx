@@ -4,6 +4,7 @@ import viteLogo from '/vite.svg'
 import './App.css'
 import Header from './header/header'
 import { Hero } from './hero-section/hero'
+import { JudgesByGender } from './gender-stats/judges-by-gender'
 function App() {
   const [count, setCount] = useState(0)
 
@@ -19,6 +20,7 @@ function App() {
             Judges are supposed to be impartial and unbiased, but in reality they might not be. The intent of this project is to showcase case data from the <a href="https://ujsportal.pacourts.us/" target="_blank">Pennsylvania Criminal Justice Database</a> on how different Philadelphia judges sentence individuals based on different charges and how that may vary based on their demographic information.
         </p>
     </div>
+    <JudgesByGender />
     </>
   )
 }
