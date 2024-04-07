@@ -1,9 +1,11 @@
 import logo from './logo.svg';
 import './App.css';
+import Header from './header/header.js'; // Import the Header component
 
 function App() {
   return (
     <div className="App">
+      <Header /> {/* Add the Header component */}
         {Intro()}
     </div>
   );
