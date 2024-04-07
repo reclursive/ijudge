@@ -1,11 +1,12 @@
 import logo from './logo.svg';
 import './App.css';
 import Header from './header/header.js'; // Import the Header component
-
+import Hero from './hero-section/hero.js'; // Import the Hero component
 function App() {
   return (
     <div className="App">
       <Header /> {/* Add the Header component */}
+      <Hero />
         {Intro()}
     </div>
   );
